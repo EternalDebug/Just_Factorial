@@ -1,7 +1,7 @@
 import unittest
 
 
-def Factorial(num):
+def factorial(num):
     res = 1
     while (num > 1):
         res = num * res
