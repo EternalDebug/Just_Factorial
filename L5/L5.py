@@ -11,17 +11,17 @@ def Factorial(num):
 
 class FactorialTestCase(unittest.TestCase):
     def test1(self):
-        res = factorial(5)
+        res = Factorial(5)
         self.assertEqual(res, 120)
 
     def test2(self):
-        res = factorial(6)
+        res = Factorial(6)
         self.assertEqual(res, 720)
 
     def test3(self):
-        res = factorial(0)
+        res = Factorial(0)
         self.assertEqual(res, 1)
 
 
 if __name__ == '__main__':
-    print(factorial(5))
+    print(Factorial(5))
